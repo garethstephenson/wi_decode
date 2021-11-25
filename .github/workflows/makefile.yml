@@ -16,7 +16,7 @@ jobs:
       with:
         submodules: recursive
     - name: Install dependencies
-      run: sudo apt update && sudo apt install libreadline-dev:i386 libc6-dev-i386 gcc-multilib
+      run: sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install libreadline-dev:i386 libc6-dev-i386 gcc-multilib
       
     - name: Build libsamwid.so
       working-directory: lib
