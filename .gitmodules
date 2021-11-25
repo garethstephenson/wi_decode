@@ -1,0 +1,3 @@
+[submodule "lib/loadlibrary"]
+	path = lib/loadlibrary
+	url = git@github.com:taviso/loadlibrary.git
