@@ -21,3 +21,15 @@ jobs:
     - name: Build libsamwid.so
       working-directory: lib
       run: make
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: libsamwid.so
+        path: lib/libsamwid.so
+     
+    - uses: actions/upload-artifact@v2
+      with:
+        name: swi32.dll
+        path: lib/libsamwid.so
+        
+        
