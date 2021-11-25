@@ -30,6 +30,6 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: swi32.dll
-        path: lib/libsamwid.so
+        path: lib/swi32.dll
         
         
