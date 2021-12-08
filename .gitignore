@@ -1,0 +1,5 @@
+target
+*.so
+witojpeg
+*.dll
+!lib/swi32.dll
