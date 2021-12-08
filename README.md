@@ -4,19 +4,19 @@ Rust Wrapper library to convert WI images to JPEG.
 
 To compile the libary run:
 
-1. Build the C loadlibrary wrapper
+# 1. Build the C loadlibrary wrapper
 
 in `./lib/`
 
 `make all`
 
-2. Build the rust library
+# 2. Build the rust library
 
 In `.` 
 
 `cargo build --target i686-unknown-linux-gnu`
 
-3. Build the example
+# 3. Build the example
 
 To build and run the example:
 
