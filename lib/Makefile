@@ -17,3 +17,5 @@ libsamwid.so: samwid.o loadlibrary/intercept/hook.o | peloader
 
 clean:
 	rm -f a.out core *.o core.* vgcore.* gmon.out libsamwid.so
+
+loadlibrary/intercept/hook.o: peloader
